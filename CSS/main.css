@@ -55,6 +55,7 @@ img {
     background-color: #f4f8f7;
     border: none;
     height: 42px;
+    padding-left: 25px;
 }
 .sectionSignIn {
     position: absolute;
@@ -74,6 +75,11 @@ img {
     margin: 0;
     border: 1px solid grey;
     border-radius: 24px;
+}
+i {
+    position: absolute;
+    top: 24px;
+    left: 5px;
 }
 
 

@@ -6,6 +6,7 @@
     <title>Document</title>        
     <link rel="stylesheet" href="./CSS/main.css">    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
     <div class="position-relative">
@@ -37,9 +38,19 @@
                     </div>
                     <p class="message text-center">or use your email for registration:</p>
                     <form class="regForm d-flex flex-column align-items-center">
-                        <input type="text" placeholder="Name">
+                        <div class="position-relative">
+                            <i class="fa fa-user icon"></i>  
+                            <input type="text" placeholder="Name">                         
+                        </div>
+                        <div class="position-relative">
+                            <i class="fa fa-envelope icon"></i>                           
                         <input type="email" placeholder="Email" class="mt-10">
+                        </div>
+                        <div class="position-relative">
+                            <i class="fa fa-lock icon"></i> 
                         <input type="password" placeholder="Password" class="mt-10">
+                        </div>
+                        
                     </form>
                     <div class="signUpBtn">
                         <button class="primaryBtn">SIGN UP</button>
