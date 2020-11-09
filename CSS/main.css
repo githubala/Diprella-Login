@@ -64,5 +64,13 @@ img {
     width: 80%;
     color: #fff;
 }
+.socialNetworkImages span:not(:last-child) {
+    margin-right: 10px;
+}
+.socialNetworkImages span img{
+    margin: 0;
+    border: 1px solid grey;
+    border-radius: 23px;
+}
 
 
