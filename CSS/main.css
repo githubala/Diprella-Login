@@ -1,0 +1,68 @@
+body > div{
+    height: 80vh;
+    background: #f0f4f3;
+}
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.loginWrapper {
+    width: 950px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+.primaryBtn {
+    width: 180px;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    background: #3ab19a;
+}
+.signIn {
+    background: #3ab19a;
+    position: relative;
+}
+.signUp {
+    padding: 40px 0 60px 0;
+    background: #fff;
+    box-shadow: 0 8px 6px -6px grey;
+}
+.signUp .message {
+    color: grey;
+}
+.signUp h2{ 
+    color: #3ab19a;
+}
+.signUpBtn {
+    text-align: center;
+}
+img {
+    height: 50px;
+    background: white;
+    margin: 20px 0 20px 0;
+    padding: 5px;
+}
+.regForm {
+    margin-bottom: 30px;
+}
+.regForm input{
+    width: 300px;
+    margin-top: 10px;
+    background-color: #f4f8f7;
+    border: none;
+    height: 42px;
+}
+.sectionSignIn {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    color: #fff;
+}
+
+
