@@ -66,6 +66,24 @@ i {
     top: 24px;
     left: 5px;
 }
+@media only screen and (min-width: 767px) {
+    .loginWrapper {
+        width: 100%;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        
+    }    
+    .sectionSignIn {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        color: #fff;
+    }
+}
 
 @media only screen and (min-width: 961px) {
     
@@ -75,28 +93,16 @@ i {
         top: 50%;
         left: 50%;
         position: absolute;
-    }
+    }   
 
-    .sectionSignIn {
-        position: absolute;
-        transform: translate(-50%, -50%);
-        top: 50%;
-        left: 50%;
-        width: 80%;
-        color: #fff;
-    }
-
-}
-@media only screen and (min-width: 767px) {
-    .loginWrapper {
-        width: 100%;
-    }
-    
 }
 @media only screen and (min-width: 320px) {
     .signIn {
         padding-bottom: 30px;
-    }
+    }    
+    .sectionSignIn {
+        color: #fff;
+    }    
 }
 
 
